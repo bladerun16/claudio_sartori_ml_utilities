@@ -16,6 +16,9 @@ def plot_clusters(X, y, dim, points=None,
                  ):
     """
     Plot a two dimensional projection of an array of labelled points
+    Parameters
+    ----------
+    
     X:      array with at least two columns
     y:      vector of labels, length as number of rows in X
     dim:    the two columns to project, inside range of X columns, e.g. (0,1)
